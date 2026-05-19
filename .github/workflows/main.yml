@@ -1,7 +1,7 @@
 name: buildrelease
 
 on:
-  push:
+  workflow_dispatch:
     tags:
       - 3.12.*
 
